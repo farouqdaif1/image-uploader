@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Image Uploader </h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -51,14 +51,20 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [TypeScript ](https://www.typescriptlang.org/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
+Challenge: Create an Image Uploader application. Use any front-end libraries of your choice. Create your API. Fulfill user stories below:
+
+- User story: I can drag and drop an image to upload it.
+- User story: I can choose to select an image from my folder.
+- User story: I can see a loader when uploading.
+- User story: When the image is uploaded, I can see the image and copy it.
+- User story: I can choose to copy to the clipboard .
 
 ## How To Use
 
@@ -68,13 +74,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/farouqdaif1/image-uploader.git
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
 ## Acknowledgements
@@ -87,6 +93,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- LinkedIn [farouqdaif](https://www.linkedin.com/in/farouqdaif/)
+- GitHub [@farouqdaif1](https://github.com/farouqdaif1)
+- Twitter [@DaifFarouq](https://twitter.com/DaifFarouq)
