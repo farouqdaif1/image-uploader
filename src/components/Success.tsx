@@ -1,14 +1,23 @@
 interface  ChildProps {
   files: FileList | null;
+  link: string;
 }
-const Success = ({ files }: ChildProps) => {
+const Success = ({ files,link }: ChildProps) => {
   let fileX : string | undefined = undefined 
     if(files)
       if (files[0].type.match(/^image\//)) {
         fileX = URL.createObjectURL(files[0]);
       }
  
-  
+      const Copy=()=> {
+        // Get the text field
+        const copyText= document.getElementById("myInput")as HTMLInputElement;
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); 
+        navigator.clipboard.writeText(copyText.value);
+        
+        }
+      
 
   return (
     <div className="success-container">
@@ -25,8 +34,8 @@ const Success = ({ files }: ChildProps) => {
           <p>Uploaded Successfully!</p>
           <img id='output' className="div-image" src={fileX} />
           <div className="link">
-              <input type="text" defaultValue="Hello World" id="myInput" />
-              <button>Copy Link</button> 
+              <input type="text" defaultValue={link} id="myInput" />
+              <button onClick={Copy}>Copy Link</button> 
           </div>
     </div>
   )

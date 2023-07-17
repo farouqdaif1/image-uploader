@@ -1,19 +1,20 @@
-import axios from 'axios';
 import { useRef } from 'react'
 interface  ChildProps {
-    setFiles: (files:FileList | null) => void;
-    files: FileList | null;
-  }
-function ImageUploader( { setFiles}: ChildProps) {
-    const inputRef =useRef <HTMLInputElement >  (null)
+    upLoadImage(files: FileList | null) : void;
+}
+  
+function ImageUploader( { upLoadImage }: ChildProps) {
+    const inputRef = useRef<HTMLInputElement>(null)
+    
     const handelDragOver = (event:  React.DragEvent<HTMLDivElement>) => {
         event.preventDefault()
     }
     const handelDrop = (event:  React.DragEvent<HTMLDivElement>) => {
         event.preventDefault()
-        setFiles(event.dataTransfer.files)
-    axios
+        upLoadImage(event.dataTransfer.files)
     }
+
+
     return (
         <>
             
@@ -50,7 +51,7 @@ function ImageUploader( { setFiles}: ChildProps) {
                 <p>Drag & Drop your image here</p>
                 </div>
                     <div className='or'>Or</div>
-                    <input type='file' onChange={(event)=>{setFiles(event.target.files)}} hidden accept="image/*" ref={inputRef}/>
+                    <input type='file' onChange={(event)=>{upLoadImage(event.target.files)}} hidden accept="image/*" ref={inputRef}/>
                     <div className='buttonDiv'><button onClick={() => {
                          if (inputRef.current) {
                             inputRef.current.click()
