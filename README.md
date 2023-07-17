@@ -38,7 +38,7 @@
 
 ![screenshot](http://res.cloudinary.com/dsmjgw4ty/image/upload/v1689604351/h6u6nfqzaibo2zsefoer.png)
 
-This project is an image uploader You can upload the image and copy the link of it This project is built with TypeScript and  React  and uses the mobile-first approach in styling using CSS.
+This project is an image uploader You can upload the image and copy the link. This project is built with TypeScript and React and uses a mobile-first approach to styling.
 
 
 ### Built With
