@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/farouqdaif1/image-uploader">
+    <a href="https://devchallenges.io/solutions/iuLSsyMZqVi5LTcZ2ENR">
       Solution
     </a>
     <span> | </span>
