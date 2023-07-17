@@ -57,7 +57,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-Challenge: Create an Image Uploader application. Use any front-end libraries of your choice. Create your API. Fulfill user stories below:
+Challenge: Create an Image Uploader application. Fulfill user stories below:
 
 - User story: I can drag and drop an image to upload it.
 - User story: I can choose to select an image from my folder.
