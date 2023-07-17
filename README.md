@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/farouqdaif1/image-uploader">
       Solution
     </a>
     <span> | </span>
@@ -38,12 +38,8 @@
 
 ![screenshot](http://res.cloudinary.com/dsmjgw4ty/image/upload/v1689604351/h6u6nfqzaibo2zsefoer.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+This project is an image uploader You can upload the image and copy the link of it This project is built with TypeScript and  React  and uses the mobile-first approach in styling using CSS.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
