@@ -38,7 +38,7 @@
 
 ![screenshot](http://res.cloudinary.com/dsmjgw4ty/image/upload/v1689604351/h6u6nfqzaibo2zsefoer.png)
 
-This project is an image uploader You can upload the image and copy the link. This project is built with TypeScript and React and uses a mobile-first approach to styling.
+This application allows users to upload an image via dragging or using the file input. The image is uploaded on the Cloudinary platform which will provide a link that can be saved/copied. This project is built with TypeScript and React and uses a mobile-first approach to styling.
 
 
 ### Built With
