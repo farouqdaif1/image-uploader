@@ -15,7 +15,7 @@ function ImageUploader({ upLoadImage }: ChildProps) {
   };
 
   return (
-    <>
+    <div className="pro-container">
       <div className="container">
         <h1>Upload your image</h1>
         <p>File should be Jpeg, Png,...</p>
@@ -147,7 +147,7 @@ function ImageUploader({ upLoadImage }: ChildProps) {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default ImageUploader;

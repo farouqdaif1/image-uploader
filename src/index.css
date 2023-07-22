@@ -14,37 +14,46 @@ body {
   position: relative;
   font-family: "Poppins", sans-serif;
 }
-.container {
+.pro-container {
   position: absolute;
   top: 50%;
   left: 50%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 36px 32px;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   background-color: white;
   width: 402px;
   height: 469px;
   flex-shrink: 0;
   border-radius: 12px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+}
+.container {
+  width: 338px;
+  height: 397px;
+  flex-shrink: 0;
 }
 h1 {
-  margin-top: 20%;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 27px;
-  letter-spacing: -0.035em;
   text-align: center;
   color: #4f4f4f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.63px;
 }
 p {
   margin-top: 16px;
-  font-size: 16.6px;
-  font-weight: 500;
-  line-height: 15px;
-  letter-spacing: -0.035em;
   text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.35px;
   color: #828282;
 }
 
@@ -55,8 +64,10 @@ p {
   margin-top: 29.62px;
   margin-left: auto;
   margin-right: auto;
-  height: 45%;
-  width: 90%;
+
+  width: 338px;
+  height: 218.903px;
+  flex-shrink: 0;
   border-radius: 12px;
   background: #f6f8fb;
   border: 1px solid rgba(151, 190, 244, 1);
@@ -77,12 +88,12 @@ p {
   margin-top: 18.91px;
   margin-bottom: 21.62px;
   color: rgba(189, 189, 189, 1);
-  width: 100%;
-  font-size: 16.6px;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.035em;
   text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.42px;
 }
 .buttonDiv {
   width: 100%;
@@ -222,19 +233,31 @@ p {
   height: 34px;
   flex-shrink: 0;
   position: relative;
-}
-.link input {
-  width: 338px;
-  height: 34px;
   border-radius: 8px;
-  border: 1px solid var(--gray-5, #e0e0e0);
+  border: 1px solid #e0e0e0;
   background: #f6f8fb;
   padding-left: 7.12px;
 }
+.link input {
+  width: 240px;
+  height: 12px;
+  border: none;
+  background: #f6f8fb;
+}
+.link input[type="text"] {
+  color: #4f4f4f;
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-overflow: ellipsis;
+}
+
 .link button {
   color: #fff;
   text-align: center;
-  font-family: Poppins;
   font-size: 10px;
   font-style: normal;
   font-weight: 500;
